@@ -54,7 +54,6 @@ void loop() {
     lastMillis = millis();
     
 
-
     mqttClient.publish("ananas-topic/ah1", temp);
     
   }
